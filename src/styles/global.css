@@ -1,0 +1,52 @@
+/* src/styles/global.css */
+:root {
+    --primary-color: #e91e63;
+    --secondary-color: #4caf50;
+    --background-color: #e8f5e9;
+    --text-color: #333;
+    --card-background: #fff;
+    --border-radius: 8px;
+    --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, var(--background-color), #fff9c4);
+    color: var(--text-color);
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  input, select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    margin-bottom: 12px;
+    width: 100%;
+    background-color: #f9f9e0;
+  }
+  
+  .highlight {
+    color: var(--primary-color);
+    font-weight: bold;
+  }

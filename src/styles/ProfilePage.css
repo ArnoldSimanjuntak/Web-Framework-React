@@ -1,0 +1,146 @@
+ 
+  /* src/styles/ProfilePage.css */
+  .profile-page {
+    min-height: 100vh;
+  }
+  
+  .profile-container {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+  }
+  
+  .profile-main {
+    flex: 3;
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .profile-sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .profile-avatar {
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .avatar-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+  }
+  
+  .profile-info {
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+    flex: 1;
+  }
+  
+  .profile-status h2 {
+    margin-bottom: 30px;
+  }
+  
+  .status-progress {
+    margin-bottom: 40px;
+  }
+  
+  .progress-bar {
+    height: 6px;
+    background-color: #eee;
+    border-radius: 3px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.5s ease;
+  }
+  
+  .status-points {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .point {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #eee;
+    border: 2px solid white;
+    margin-top: -5px;
+  }
+  
+  .point.active {
+    background-color: var(--primary-color);
+  }
+  
+  .status-labels {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tabs-container {
+    margin-top: 40px;
+  }
+  
+  .tabs-header {
+    display: flex;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .tab-button {
+    padding: 15px 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    font-weight: 500;
+    color: #666;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-button.active {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+  }
+  
+  .tabs-content {
+    padding: 20px 0;
+  }
+  
+  .bookings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .booking-item {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: space-between;
+  }
