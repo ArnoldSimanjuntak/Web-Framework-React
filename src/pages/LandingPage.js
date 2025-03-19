@@ -8,10 +8,10 @@ import '../styles/LandingPage.css';
 const LandingPage = () => {
   // Building data
   const buildings = [
-    { id: 1, name: 'JTE & JTA', image: '/assets/images/jte-jta.jpg' },
-    { id: 2, name: 'Gedung Sipil', image: '/assets/images/gedung-sipil.jpg' },
-    { id: 3, name: 'Lab Teknik', image: '/assets/images/lab-teknik.jpg' },
-    { id: 4, name: 'Dekanat', image: '/assets/images/dekanat.jpg' },
+    { id: 1, name: 'JTE & JTA', image: '/assets/images/JTA JTE.png' },
+    { id: 2, name: 'Gedung Sipil', image: '/assets/images/Teknik Sipil.png' },
+    { id: 3, name: 'Lab Teknik', image: '/assets/images/LAB.png' },
+    { id: 4, name: 'Dekanat', image: '/assets/images/Dekanat.png' },
   ];
 
   return (
