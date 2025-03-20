@@ -25,7 +25,9 @@ const Header = () => {
       </nav>
       
       <div className="profile-icon">
-        <div className="profile-circle"></div>
+        <Link to="/profile">
+          <div className="profile-circle"></div>
+        </Link>
       </div>
     </header>
   );
