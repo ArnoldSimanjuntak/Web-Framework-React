@@ -1,8 +1,8 @@
 /* src/styles/global.css */
 :root {
     --primary-color: #e91e63;
-    --secondary-color: #4caf50;
-    --background-color: #e8f5e9;
+    --secondary-color: #daf5ca;
+    --background-color: #d0f488;
     --text-color: #333;
     --card-background: #fff;
     --border-radius: 8px;
@@ -17,7 +17,7 @@
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, var(--background-color), #fff9c4);
+    background: linear-gradient(to bottom, var(--background-color), #fffef0);
     color: var(--text-color);
     min-height: 100vh;
   }

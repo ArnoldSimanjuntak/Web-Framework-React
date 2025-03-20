@@ -9,17 +9,23 @@ const Header = () => {
       <div className="logo">
         <Link to="/">Rentify</Link>
       </div>
+      
       <nav className="nav">
         <ul>
-          <li><Link to="/">Beranda</Link></li>
-          <li><Link to="/layanan">Layanan</Link></li>
-          <li><Link to="/daftar-ruangan">Daftar Ruangan</Link></li>
+          <li>
+            <Link to="/">Beranda</Link>
+          </li>
+          <li>
+            <Link to="/">Layanan</Link>
+          </li>
+          <li>
+            <Link to="/rooms">Daftar Ruangan</Link>
+          </li>
         </ul>
       </nav>
+      
       <div className="profile-icon">
-        <Link to="/profile">
-          <div className="profile-circle"></div>
-        </Link>
+        <div className="profile-circle"></div>
       </div>
     </header>
   );

@@ -6,7 +6,7 @@ import '../styles/global.css';
 
 const RoomListingPage = () => {
   const { buildingId } = useParams();
-  
+  useNavigate();
   // Sample room data
   const rooms = [
     { id: '1234', name: 'Creative Room', status: 'Tersedia', building: 'JTE&JTA' },
